@@ -14,39 +14,33 @@
 </head>
 <body>
   <a class="skip" href="#timeline">Skip to composers</a>
-  <header class="mast"><a href="#top" class="address"><img src="/mark.svg" alt="" width="24" height="24">classical.jakub.computer</a><a href="#timeline">Timeline</a></header>
   <main id="top">
-    <div class="intro">
-      <div><h1>Classical playlists</h1>
-      <p>Classical music on Spotify, organized into one playlist per composer for listening and exploration.</p></div>
-      <section class="rules" aria-labelledby="rules-title"><h2 id="rules-title">Playlist order</h2>
-        <ol>
-          <li>Start with the most important works. Between similarly important genres, the shorter section comes first.</li>
-          <li>Keep movements together. Usually one recording per work; prefer a strong Karajan or Argerich reading, never an isolated extra movement.</li>
-          <li>Include significant orchestrations on their own merits. Prefer ballet suites; put operas last.</li>
-        </ol>
-        <p>Selections target the German catalogue. Availability and recording gaps vary.</p>
-      </section>
-      <div id="support"><a href="https://ko-fi.com/jakubfleitesjonczyk" class="fallback">Support me on Ko-fi</a><div id="kofi-widget"></div></div>
-    </div>
+    <header class="intro">
+      <h1>Classical playlists</h1>
+      <details class="method"><summary>Methodology</summary>
+        <p>The playlists start with the genres most important to each composer. Within each genre, the most important pieces come first. When two genres are similarly important, the shorter section comes first.</p>
+        <p>The most important recordings with acceptable sound quality were chosen. Movements of a work stay together. The releases were available in Germany when selected.</p>
+        <p>Historically important orchestral versions sit alongside other orchestral works, including when someone else made the arrangement. A ballet is usually represented by its concert suite: a selection of dances from the score, rather than the entire staged work. Operas come after the other genres because a single opera can occupy dozens of tracks.</p>
+      </details>
+      <a class="support" href="https://ko-fi.com/jakubfleitesjonczyk" aria-label="Support me on Ko-fi"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 8h13v6a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5zm13 1h2a3 3 0 0 1 0 6h-2M3 21h15M7 3v2m4-2v2"/></svg>Support me</a>
+    </header>
     <div class="catalogue" id="timeline">
-      <aside class="guide"><details id="period-guide" open><summary>Periods <span aria-hidden="true">±</span></summary>
-      <p>Approximate active years. Styles overlap.</p>
-      <div class="axis"><span>1400</span><span>Today</span></div>
-      <!-- PERIODS -->
-      </details><nav class="jump" aria-label="Jump to birth years"><h2>Birth years</h2><!-- JUMPS --></nav></aside>
+      <aside class="guide"><details id="period-guide" open><summary>Periods &amp; styles</summary>
+        <nav class="era-list" aria-label="Jump to a period or style"><!-- PERIODS --></nav>
+        <p class="legend-note">A dot connects a composer to a line.</p>
+      </details></aside>
       <section class="collection" aria-labelledby="list-title">
-        <div class="collection-head"><h2 id="list-title">Composers</h2><span id="total" aria-live="polite"><!-- COUNT --> playlists</span></div>
+        <h2 class="sr" id="list-title">Composer timeline</h2>
         <div class="tools" hidden>
           <label class="query"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><input id="query" type="search" aria-label="Find a composer" placeholder="Find a composer…" autocomplete="off"></label>
           <label class="style-select"><span class="sr">Filter by period or style</span><select id="style"><option value="">All periods &amp; styles</option><!-- OPTIONS --></select></label>
         </div>
-        <div class="direction">By birth date · newest first</div>
-        <div id="entries"><!-- CARDS --></div>
+        <div class="ruler"><div>Birth year <strong id="reading-year"><!-- NEWEST --></strong></div><span id="total" aria-live="polite"><!-- COUNT --> playlists</span></div>
+        <div id="entries" style="--lanes:<!-- LANES -->"><!-- CARDS --></div>
         <p id="empty" hidden>No composers match. <button id="reset">Clear filters</button></p>
       </section>
     </div>
   </main>
-  <footer><span>Classical playlists</span><div><a href="/credits.html">Cover credits</a><a href="https://github.com/ctrlaltjakub/classical-atlas">Source</a><a href="#top">Back to top</a></div></footer>
+  <footer><a href="/credits.html">Cover credits</a><a href="https://github.com/ctrlaltjakub/classical-atlas">Source</a><a href="#top">Back to top</a></footer>
 </body>
 </html>
