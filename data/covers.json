@@ -208,12 +208,13 @@
     "licenseUrl": null
   },
   "takemitsu": {
-    "url": "https://mosaic.scdn.co/300/ab67616d00001e023f74ccf37df5011e37420b91ab67616d00001e024ce9b0dace13aa388a4bea62ab67616d00001e029df45acaab17b180e3727884ab67616d00001e02b65f5c5bd5f3bd3b28f504dd",
-    "kind": "spotify-default",
-    "credit": null,
-    "source": null,
-    "license": null,
-    "licenseUrl": null
+    "url": "/portraits/takemitsu-1973.jpg",
+    "kind": "archive-portrait",
+    "credit": "DE SINGEL, music@venture, p. 85. Tōru Takemitsu, May 1973. Photographer not named. Photograph reproduced unaltered.",
+    "source": "https://commons.wikimedia.org/wiki/File:Music@venture_(programmaboekje).pdf#page=85",
+    "rightsStatement": "https://desingel.be/en/info/copyright",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "adams-j": {
     "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac234017e73eaefcfcd20fa583",

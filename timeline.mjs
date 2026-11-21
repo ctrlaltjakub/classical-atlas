@@ -1,10 +1,10 @@
-// Catppuccin Mocha. Rails describe the composers represented here, not hard
+// Saturated hues alternate across overlapping lanes. Rails represent composers, not hard
 // historical boundaries. A dot, not the presence of a passing line, means membership.
 export const eras=[
- ['Contemporary','#cba6f7'],['Minimalism','#f5c2e7'],['Serialism','#b4befe'],
- ['Modern','#89b4fa'],['Neoclassicism','#74c7ec'],['Impressionism','#89dceb'],
- ['Post-Romanticism','#fab387'],['Late Romanticism','#f2cdcd'],['Romantic','#f38ba8'],
- ['Classical','#f9e2af'],['Baroque','#a6e3a1'],['Renaissance','#94e2d5']
+ ['Contemporary','#b58aff'],['Minimalism','#eaff52'],['Serialism','#ffad38'],
+ ['Modern','#479fff'],['Neoclassicism','#88db4a'],['Impressionism','#ff93d8'],
+ ['Post-Romanticism','#31ded4'],['Late Romanticism','#ebb778'],['Romantic','#ff627d'],
+ ['Classical','#ffdd37'],['Baroque','#37c78e'],['Renaissance','#c7bfff']
 ];
 export function routes(rows){
  const ranges=eras.map(([name,color])=>{

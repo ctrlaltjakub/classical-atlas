@@ -9,7 +9,8 @@ test('one distinct reachable card for each of the 122 published playlists',()=>{
  const entries=json('playlists');assert.equal(entries.length,122);assert.equal((out.match(/class="card"/g)||[]).length,entries.length);
  const bios=json('biographies'),arts=json('covers');
  for(const r of entries){assert(out.includes('id="'+r.slug+'"'));assert(out.includes('https://open.spotify.com/playlist/'+r.id));assert(out.includes(bios[r.slug].wikipedia));assert(out.includes(arts[r.slug].url))}
- assert.equal(Object.values(arts).filter(r=>r.kind==='spotify-default').length,1);
+ assert(!Object.values(arts).some(r=>r.kind==='spotify-default'));
+ assert.equal(arts.takemitsu.kind,'archive-portrait');assert(file(new URL('./dist'+arts.takemitsu.url,import.meta.url)).length>1000);
 });
 test('birth order is descending; date precision is not invented',()=>{
  const dates=[...out.matchAll(/data-born="([^"]+)"/g)].map(m=>m[1]);assert.deepEqual(dates,[...dates].sort().reverse());
@@ -23,7 +24,13 @@ test('timeline spans overlapping periods including Post-Romanticism; every link 
 test('work summaries keep compositions separate from recordings and movements',()=>{
  const entries=json('contents');assert.equal(Object.keys(entries).length,122);assert.match(entries.brahms,/4 symphonies, 4 concertos, 21 orchestral Hungarian Dances/);
  assert.match(entries.schubert,/8 symphonies/);assert.match(entries.beethoven,/1 opera \(2 versions\)/);
- assert.match(entries.haydn,/126 baryton trios/i);assert.equal((out.match(/<summary>Works by genre<\/summary>/g)||[]).length,Object.keys(entries).length);
+ assert.match(entries.haydn,/126 baryton trios/i);assert(!out.includes('<summary>Works by genre</summary>'));
+});
+test('homepage and tab share the title; support sits in the same row and the legend note is gone',()=>{
+ const title='Classical Music Repository for Spotify';
+ assert(out.includes('<title>'+title+'</title>'));assert(out.includes('<h1>'+title+'</h1>'));
+ assert.match(out,/<div class="title-row">\s*<h1>[^<]+<\/h1>\s*<a class="support"/);
+ assert(!out.includes('A dot connects a composer'));assert.equal((out.match(/class="wiki"/g)||[]).length,122);
 });
 test('parallel rails do not collide, and the period index jumps to the first actual member',()=>{
  const bios=json('biographies'), rows=json('playlists').map(r=>({...r,...bios[r.slug]})).sort((a,b)=>b.birth.localeCompare(a.birth)||a.name.localeCompare(b.name));
