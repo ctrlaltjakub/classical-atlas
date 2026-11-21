@@ -232,6 +232,20 @@
     "dateSource": "https://muzhp.pl/en/calendar/fryderyk-chopin-na-stale-emigruje-z-polski-en",
     "dateNote": "Chopin and his family gave 1 March; his baptismal register gives 22 February."
   },
+  "cochereau": {
+    "birth": "1924-07-09",
+    "death": "1984-03-06",
+    "periods": [
+      "Modern",
+      "Contemporary"
+    ],
+    "styles": [
+      "Post-Romanticism",
+      "French symphonic organ"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Pierre_Cochereau",
+    "dateSource": "https://catalogue.bnf.fr/ark:/12148/cb13983469k"
+  },
   "copland": {
     "birth": "1900-11-14",
     "death": "1990-12-02",

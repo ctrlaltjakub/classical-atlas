@@ -5,8 +5,8 @@ import {time,periods} from './build.mjs';
 import {routes} from './timeline.mjs';
 const out=file(new URL('./dist/index.html',import.meta.url),'utf8');
 const json=n=>JSON.parse(file(new URL('./data/'+n+'.json',import.meta.url)));
-test('one distinct reachable card for each of the 122 published playlists',()=>{
- const entries=json('playlists');assert.equal(entries.length,122);assert.equal((out.match(/class="card"/g)||[]).length,entries.length);
+test('one distinct reachable card for each published playlist',()=>{
+ const entries=json('playlists');assert(entries.length>=123);assert.equal((out.match(/class="card"/g)||[]).length,entries.length);
  const bios=json('biographies'),arts=json('covers');
  for(const r of entries){assert(out.includes('id="'+r.slug+'"'));assert(out.includes('https://open.spotify.com/playlist/'+r.id));assert(out.includes(bios[r.slug].wikipedia));assert(out.includes(arts[r.slug].url))}
  assert(!Object.values(arts).some(r=>r.kind==='spotify-default'));
@@ -22,7 +22,7 @@ test('timeline spans overlapping periods including Post-Romanticism; every link 
  assert(!out.includes('<!-- CARDS -->'));
 });
 test('work summaries keep compositions separate from recordings and movements',()=>{
- const entries=json('contents');assert.equal(Object.keys(entries).length,122);assert.match(entries.brahms,/4 symphonies, 4 concertos, 21 orchestral Hungarian Dances/);
+ const entries=json('contents');assert.equal(Object.keys(entries).length,json('playlists').length);assert.match(entries.brahms,/4 symphonies, 4 concertos, 21 orchestral Hungarian Dances/);
  assert.match(entries.schubert,/8 symphonies/);assert.match(entries.beethoven,/1 opera \(2 versions\)/);
  assert.match(entries.haydn,/126 baryton trios/i);assert(!out.includes('<summary>Works by genre</summary>'));
 });
@@ -30,7 +30,19 @@ test('homepage and tab share the title; support sits in the same row and the leg
  const title='Classical Music Repository for Spotify';
  assert(out.includes('<title>'+title+'</title>'));assert(out.includes('<h1>'+title+'</h1>'));
  assert.match(out,/<div class="title-row">\s*<h1>[^<]+<\/h1>\s*<a class="support"/);
- assert(!out.includes('A dot connects a composer'));assert.equal((out.match(/class="wiki"/g)||[]).length,122);
+ assert(!out.includes('A dot connects a composer'));assert.equal((out.match(/class="wiki"/g)||[]).length,json('playlists').length);
+});
+test('Cochereau links the actual playlist and carries the overlapping periods',()=>{
+ const card=out.match(/<article id="cochereau"[\s\S]*?<\/article>/)?.[0];assert(card);
+ assert(card.includes('data-born="1924-07-09"'));
+ assert(card.includes('datetime="1984-03-06"'));
+ assert(card.includes('https://open.spotify.com/playlist/2y65fytV1lXNM2khGFJlXh'));
+ assert(card.includes('https://en.wikipedia.org/wiki/Pierre_Cochereau'));
+ assert.match(card,/data-tags="Modern\|Contemporary\|Post-Romanticism\|French symphonic organ"/);
+ assert.match(json('contents').cochereau,/12 organ symphonies/);
+ const cover=json('covers').cochereau;assert.equal(cover.url,'/portraits/cochereau-1961.jpg');
+ assert(file(new URL('./dist'+cover.url,import.meta.url)).length>1000);
+ assert(file(new URL('./dist/credits.html',import.meta.url),'utf8').includes('The Makio, Ohio State University, 1961, p. 68'));
 });
 test('parallel rails do not collide, and the period index jumps to the first actual member',()=>{
  const bios=json('biographies'), rows=json('playlists').map(r=>({...r,...bios[r.slug]})).sort((a,b)=>b.birth.localeCompare(a.birth)||a.name.localeCompare(b.name));

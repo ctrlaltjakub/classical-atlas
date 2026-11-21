@@ -21,7 +21,7 @@ for(const r of rows){
   Object.assign(r,bios[r.slug],{art:covers[r.slug]});
   assert(/^[a-z0-9_-]+$/.test(r.slug)&&/^[A-Za-z0-9]{22}$/.test(r.id));
   assert(r.styles.length&&r.periods.length&&r.wikipedia.startsWith('https://en.wikipedia.org/wiki/'));
-  if(r.art.kind==='archive-portrait') assert(r.slug==='takemitsu'&&r.art.url==='/portraits/takemitsu-1973.jpg'&&r.art.licenseUrl&&r.art.rightsStatement);
+  if(r.art.kind==='archive-portrait') assert(/^\/portraits\/[a-z0-9-]+\.jpg$/.test(r.art.url)&&r.art.license&&r.art.rightsStatement);
   else assert(['image-cdn-ak.spotifycdn.com','image-cdn-fa.spotifycdn.com','mosaic.scdn.co'].includes(new URL(r.art.url).hostname));
   assert(!r.death||r.death>=r.birth);
 }
@@ -36,7 +36,7 @@ function card(r,i){
  const lines=ranges.filter(s=>s.first<=i&&i<=s.last).map(s=>`<i class="rail${i===s.first?' head':''}${i===s.last?' tail':''}${s.members.has(i)?' stop':''}" style="--lane:${s.lane};--ink-line:${s.color}"></i>`).join('');
  return `<article id="${r.slug}" class="card" tabindex="-1" data-name="${name}" data-tags="${esc(t.join('|'))}" data-born="${r.birth}">
  <div class="tracks" aria-hidden="true">${lines}</div><span class="year" aria-hidden="true">${r.birth.slice(0,4)}</span>
- <a href="${spotify}" class="portrait" aria-label="Open ${name} on Spotify"><img src="${r.art.kind==='archive-portrait'?esc(r.art.url):safe(r.art.url)}" alt="${esc(r.art.kind==='archive-portrait'?'Tōru Takemitsu in May 1973':'Playlist portrait of '+r.name)}" width="88" height="88" loading="${i<4?'eager':'lazy'}" decoding="async"></a>
+ <a href="${spotify}" class="portrait" aria-label="Open ${name} on Spotify"><img src="${r.art.kind==='archive-portrait'?esc(r.art.url):safe(r.art.url)}" alt="${esc(r.art.alt||(r.slug==='takemitsu'?'Tōru Takemitsu in May 1973':'Playlist portrait of '+r.name))}" width="88" height="88" loading="${i<4?'eager':'lazy'}" decoding="async"></a>
  <div class="record"><h3>${name}</h3><p class="dates">${r.birthKind==='baptised'?'Baptised ':!r.death?'Born ':''}${timeTag(r.birth)}${r.death?' – '+timeTag(r.death):''}</p>${note}
  <p class="styles">${tagsFor(t)}</p><div class="links"><a href="${spotify}" aria-label="${name} playlist on Spotify">${glyph} Spotify</a><a href="${safe(r.wikipedia)}" aria-label="${name} on Wikipedia">${wiki} Wikipedia</a></div></div></article>`;
 }
@@ -47,9 +47,9 @@ const substitutions={COUNT:total,NEWEST:rows[0].birth.slice(0,4),LANES:lanes,PER
 const out=file('dist');mkdirSync(out,{recursive:true});
 write(join(out,'index.html'),read(file('page.html'),'utf8').replace(/<!-- (\w+) -->/g,(_,k)=>{assert(k in substitutions);return substitutions[k]}));
 mkdirSync(join(out,'portraits'),{recursive:true});
-copyFileSync(file('portraits/takemitsu-1973.jpg'),join(out,'portraits/takemitsu-1973.jpg'));
+for(const {art} of rows)if(art.kind==='archive-portrait')copyFileSync(file(art.url.slice(1)),join(out,art.url.slice(1)));
 for(const f of ['mark.svg','site.css','index.js'])copyFileSync(file(f),join(out,f));
 const entries=rows.filter(r=>r.art.source||r.art.credit).sort((a,b)=>a.name.localeCompare(b.name)).map(r=>{
  const a=r.art;return `<li><a href="/#${r.slug}">${esc(r.name)}</a> — ${esc(a.credit||'Artist not identified')}${a.source?` · <a href="${safe(a.source)}">Source</a>`:''}${a.rightsStatement?` · <a href="${safe(a.rightsStatement)}">Rights statement</a>`:''}${a.license?a.licenseUrl?` · <a href="${safe(a.licenseUrl)}">${esc(a.license)}</a>`:' · '+esc(a.license):''}</li>`
 }).join('');
-write(join(out,'credits.html'),`<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="dark"><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/site.css"><title>Cover credits · Classical Music Repository for Spotify</title><main class="credits"><a href="/">← Timeline</a><h1>Cover credits</h1><p>Portraits use the corresponding Spotify covers, except for Tōru Takemitsu’s photograph from DE SINGEL. Sources and licences are listed where known.</p><ul>${entries}</ul><p>The site’s 0BSD licence covers its code, not the artwork or service marks.</p></main></html>`);
+write(join(out,'credits.html'),`<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="dark"><link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/site.css"><title>Cover credits · Classical Music Repository for Spotify</title><main class="credits"><a href="/">← Timeline</a><h1>Cover credits</h1><p>Images come from Spotify playlist covers or the credited archives below. Sources and licences are listed where known.</p><ul>${entries}</ul><p>The site’s 0BSD licence covers its code, not the artwork or service marks.</p></main></html>`);

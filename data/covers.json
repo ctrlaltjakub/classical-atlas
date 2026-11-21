@@ -1,4 +1,14 @@
 {
+  "cochereau": {
+    "url": "/portraits/cochereau-1961.jpg",
+    "kind": "archive-portrait",
+    "alt": "Pierre Cochereau at the organ, photographed for the 1961 Ohio State yearbook",
+    "credit": "Uncredited photographer · The Makio, Ohio State University, 1961, p. 68",
+    "source": "https://archive.org/details/makio1961ohio/page/n71/mode/1up",
+    "license": "Published without copyright notice (United States)",
+    "licenseUrl": null,
+    "rightsStatement": "https://archive.org/details/makio1961ohio"
+  },
   "telemann": {
     "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac1fad71ca3285c281ac0f5f3a",
     "kind": "portrait",

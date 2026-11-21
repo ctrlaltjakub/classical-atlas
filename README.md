@@ -6,7 +6,7 @@ Period and style lines join their newest and oldest represented composers, not h
 
 Run `npm run build` with Node.js 22 or newer and serve `dist/` with any static
 file server. There are no package dependencies, account tokens or Spotify API
-calls at build time or page load. Playlist covers are displayed from Spotify, except for the documentary photograph of Tōru Takemitsu (DE SINGEL, CC BY-SA 4.0; see Cover credits).
+calls at build time or page load. Portraits come from Spotify covers or from the credited archives (see Cover credits).
 The composer timeline, methodology disclosure, period jumps and direct Ko-fi link work without JavaScript. JavaScript adds filtering and the live birth-year indicator.
 
 The descriptions prepared for Spotify describe the music in the playlist, not a composer's entire
