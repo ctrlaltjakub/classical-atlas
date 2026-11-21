@@ -1,0 +1,978 @@
+{
+  "telemann": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac1fad71ca3285c281ac0f5f3a",
+    "kind": "portrait",
+    "credit": "Georg Lichtensteger",
+    "source": "https://commons.wikimedia.org/wiki/File:Georg_Philipp_Telemann_by_Georg_Lichtensteger.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "bach-cpe": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac4dc2b2ce311b50fdc0fddd1b",
+    "kind": "portrait",
+    "credit": "Attributed to Franz Conrad Löhr",
+    "source": "https://commons.wikimedia.org/wiki/File:CPEB_by_L%C3%B6hr.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "cage": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac882010b036621619fd720a7e",
+    "kind": "portrait",
+    "credit": "Rob Bogaerts for Anefo",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Cage_%281988%29.jpg",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "villa-lobos": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac000682badb32c42908e72c55",
+    "kind": "portrait",
+    "credit": "Artist unknown",
+    "source": "https://commons.wikimedia.org/wiki/File:Heitor_Vila-Lobos_%28c._1922%29part.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "martinu": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac5f7772e74d77e4ed68f39374",
+    "kind": "portrait",
+    "credit": "Unknown photographer · Bohuslav Martinů Centre, Polička",
+    "source": "https://commons.wikimedia.org/wiki/File:Martinu_1945.jpg",
+    "license": "CC BY-SA 3.0 cz",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/cz/"
+  },
+  "reger": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac317f84733646e21ce2c9873a",
+    "kind": "portrait",
+    "credit": "Rudolf Dührkoop",
+    "source": "https://commons.wikimedia.org/wiki/File:Max_Reger_playing_piano.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "donizetti": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac59ba489701101e87eb7c3dfc",
+    "kind": "portrait",
+    "credit": "Francesco Coghetti",
+    "source": "https://commons.wikimedia.org/wiki/File:Francesco_Coghetti%2C_Ritratto_di_Gaetano_Donizetti.JPG",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "massenet": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac32a2258e661e3e0cf2289cc4",
+    "kind": "portrait",
+    "credit": "Eugène Pirou; restored by Adam Cuerden",
+    "source": "https://commons.wikimedia.org/wiki/File:Jules_Massenet_by_Eug%C3%A8ne_Pirou.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "rameau": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac2085faffd672deb149a1d0e0",
+    "kind": "portrait",
+    "credit": "Attributed to Joseph Aved",
+    "source": "https://commons.wikimedia.org/wiki/File:Attribu%C3%A9_%C3%A0_Joseph_Aved%2C_Portrait_de_Jean-Philippe_Rameau_%28vers_1728%29_-_001.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "monteverdi": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac9b541296a0e99e8ff5c72193",
+    "kind": "portrait",
+    "credit": "Bernardo Strozzi",
+    "source": "https://commons.wikimedia.org/wiki/File:Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "schnittke": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac15277b3767650f4c5b94e542",
+    "kind": "portrait",
+    "credit": "Dmitri N. Smirnov · Moscow, 1989",
+    "source": "https://commons.wikimedia.org/wiki/File:Alfred_Schnittke_April_6_1989_Moscow.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "moniuszko": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac15bccabc5f381a340f98f379",
+    "kind": "portrait",
+    "credit": "Tytus Maleszewski",
+    "source": "https://commons.wikimedia.org/wiki/File:Stanis%C5%82a%C5%AD_Maniu%C5%A1ka._%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%9C%D0%B0%D0%BD%D1%8E%D1%88%D0%BA%D0%B0_%28T._Maleszewski%2C_1865%29.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "scarlatti-d": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097acc4d2da61f81a5e73aec4990c",
+    "kind": "portrait",
+    "credit": "Domingo Antonio Velasco",
+    "source": "https://commons.wikimedia.org/wiki/File:Retrato_de_Domenico_Scarlatti.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "gluck": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac8a647b8e6116aa7ba860cade",
+    "kind": "portrait",
+    "credit": "Joseph-Siffred Duplessis",
+    "source": "https://commons.wikimedia.org/wiki/File:Joseph_Siffred_Duplessis_-_Christoph_Willibald_Gluck_-_Google_Art_Project.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "couperin-f": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac825969253414b1c8cd0a1460",
+    "kind": "portrait",
+    "credit": "Artist unknown",
+    "source": "https://commons.wikimedia.org/wiki/File:Francois_Couperin_2.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "gounod": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac48cbd1635c7c8d8312af62bf",
+    "kind": "portrait",
+    "credit": "Bayard & Bertall, restored by Adam Cuerden",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles_Gounod_-_photogr._Bayard_%26_Bertall_-_btv1b84542916.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "gubaidulina": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac62756cb1371571fa1e8d4875",
+    "kind": "portrait",
+    "credit": "Mikhail Kozlovsky · Tatarstan, 2016",
+    "source": "https://commons.wikimedia.org/wiki/File:Sofia_Gubaidulina_%282016-11-03%29.jpg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "wolf": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac59837ec2618162ef3c9a00a0",
+    "kind": "portrait",
+    "credit": "Artist unknown",
+    "source": "https://commons.wikimedia.org/wiki/File:Hugo_Wolf.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "leoncavallo": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac22b1a2d37bce9d0e1b8cc646",
+    "kind": "portrait",
+    "credit": "Artist unknown",
+    "source": "https://commons.wikimedia.org/wiki/File:Leonkavallo_Postcard-1910.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "mascagni": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097acc947a4e95c609fe215d31e57",
+    "kind": "portrait",
+    "credit": "Gavo Studio",
+    "source": "https://commons.wikimedia.org/wiki/File:Pietro_Mascagni_1.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "glazunov": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097acac3eff03f901e64efca53907",
+    "kind": "portrait",
+    "credit": "Artist unknown",
+    "source": "https://commons.wikimedia.org/wiki/File:AlexanderGlazounov.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "rautavaara": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097acba4b2b64e17b8ce956eccf0b",
+    "kind": "portrait",
+    "credit": "Laivakoira2015 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Einojuhani_Rautavaara.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "penderecki": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac971e24fecbb8db5196d5c5bf",
+    "kind": "portrait",
+    "credit": "Adam Kumiszcza · Gdańsk, 2008",
+    "source": "https://commons.wikimedia.org/wiki/File:Krzysztof_Penderecki_20080706.jpg",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  "janacek": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097acb0937cd23cc51316c982386c",
+    "kind": "portrait",
+    "credit": "Artist unknown",
+    "source": "https://commons.wikimedia.org/wiki/File:Leo%C5%A1_Jan%C3%A1%C4%8Dek_el_1914.png",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "bellini": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097acd446d0d9c9b2d672aece80a0",
+    "kind": "portrait",
+    "credit": "Giuseppe Tivoli",
+    "source": "https://commons.wikimedia.org/wiki/File:Vincenzo_bellini.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "kodaly": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac6bbe805e9d990dd461ee2cef",
+    "kind": "portrait",
+    "credit": "Artist unknown",
+    "source": "https://commons.wikimedia.org/wiki/File:Kod%C3%A1ly_Zolt%C3%A1n_1930s.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "takemitsu": {
+    "url": "https://mosaic.scdn.co/300/ab67616d00001e023f74ccf37df5011e37420b91ab67616d00001e024ce9b0dace13aa388a4bea62ab67616d00001e029df45acaab17b180e3727884ab67616d00001e02b65f5c5bd5f3bd3b28f504dd",
+    "kind": "spotify-default",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "adams-j": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac234017e73eaefcfcd20fa583",
+    "kind": "portrait",
+    "credit": "Deborah O’Grady · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:JA-portrait-1-LW.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "ives": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097accda2c89b90f3bb1ff36a4f24",
+    "kind": "portrait",
+    "credit": "Artist unknown",
+    "source": "https://commons.wikimedia.org/wiki/File:CharlesEdwardIves1913.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "bruch": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac4201b65c22b26baf507669c5",
+    "kind": "portrait",
+    "credit": "Artist unknown",
+    "source": "https://commons.wikimedia.org/wiki/File:Max_bruch.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "korngold": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac773841370dcfd5c1fb5bfd88",
+    "kind": "portrait",
+    "credit": "Georg Fayer",
+    "source": "https://commons.wikimedia.org/wiki/File:Erich_Wolfgang_Korngold_%281897%E2%80%931957%29_1927_%C2%A9_Georg_Fayer_%281892%E2%80%931950%29_OeNB_10451525.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "bernstein": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac1cfc3694977c7e77cc5341f8",
+    "kind": "portrait",
+    "credit": "Jack Mitchell · 1977",
+    "source": "https://commons.wikimedia.org/wiki/File:Leonard_Bernstein_by_Jack_Mitchell_%28high_quality%29.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "copland": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac50f7c29ac6b85247cb6fee26",
+    "kind": "portrait",
+    "credit": "CBS Television",
+    "source": "https://commons.wikimedia.org/wiki/File:Aaron_Copland_1970.JPG",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "gershwin": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097acee6961046b5f1fde5437e9df",
+    "kind": "portrait",
+    "credit": "Carl Van Vechten",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_George_Gershwin_LCCN2004662906.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "messiaen": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac5ef9c705872463f1423e65a8",
+    "kind": "portrait",
+    "credit": "Studio Harcourt",
+    "source": "https://commons.wikimedia.org/wiki/File:Messiaen_Harcourt_1937_2.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "respighi": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac45b068fca76c8edd38ca7691",
+    "kind": "portrait",
+    "credit": "AlbertoBattaglia1989 · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Respighi.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "poulenc": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097aca192e0a58587dc81da4401e1",
+    "kind": "portrait",
+    "credit": "Jacques-Émile Blanche",
+    "source": "https://commons.wikimedia.org/wiki/File:Jacques-%C3%89mile_Blanche_-_Portrait_de_Francis_Poulenc_-_PPP3772_-_Mus%C3%A9e_des_Beaux-Arts_de_la_ville_de_Paris.jpg",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "albeniz": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac177167d20d563859bde79693",
+    "kind": "portrait",
+    "credit": "Napoleón",
+    "source": "https://commons.wikimedia.org/wiki/File:Isaac_Alb%C3%A9niz%2C_de_Napoleon.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "walton": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097acd56028518eb77a497f239fab",
+    "kind": "portrait",
+    "credit": "Artist unknown",
+    "source": "https://commons.wikimedia.org/wiki/File:William-Walton-1926.png",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "granados": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac3c56a2b27cafe6b841e0212f",
+    "kind": "portrait",
+    "credit": "Artist unknown",
+    "source": "https://commons.wikimedia.org/wiki/File:Granados.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "falla": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097acaeb9803f4d3fd4bbd21e3fb4",
+    "kind": "portrait",
+    "credit": "Artist unknown",
+    "source": "https://commons.wikimedia.org/wiki/File:ManuelDeFalla.JPG",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "dutilleux": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097aca0eb38195008838149f26970",
+    "kind": "portrait",
+    "credit": "Guy Vivien · Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:HD_%C2%A9Guy_Vivien.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "berg": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac1f28d4111fd03cb5901da7b9",
+    "kind": "portrait",
+    "credit": "Georg Fayer",
+    "source": "https://commons.wikimedia.org/wiki/File:Alban_Berg_%281885%E2%80%931935%29_1927_%C2%A9_Georg_Fayer_%281892%E2%80%931950%29_OeNB_1207436.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "webern": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097aca223b18fce4fc66229039ece",
+    "kind": "portrait",
+    "credit": "Artist unknown",
+    "source": "https://commons.wikimedia.org/wiki/File:Anton_Webern_in_Stettin%2C_October_1912.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "corelli": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac2e31b4a22738c3856fbab1ab",
+    "kind": "portrait",
+    "credit": "Hugh Howard",
+    "source": "https://commons.wikimedia.org/wiki/File:Arcangelo_Corelli%2C_portrait_by_Hugh_Howard_%281697%29.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "schumann-c": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac018fa216c95d56e3e5528ead",
+    "kind": "portrait",
+    "credit": "Franz Hanfstaengl",
+    "source": "https://commons.wikimedia.org/wiki/File:Franz_Hanfstaengl_-_Clara_Schumann_%281857%29.jpg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "mozart": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac986f750bb206af092a1e8830",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "bach": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097acf5873d94dab84b741cc2bf46",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "brahms": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac3d68fd04bf0b0a8e3e212222",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "tchaikovsky": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac875ce25f9a9fac6169779a1e",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "schubert": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac6df66e44b38c60702a7c3aeb",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "debussy": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac14430b4dbc25c9f38d0d0af8",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "ravel": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097acb63c55c3b21f53d53afcec82",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "vivaldi": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ace07b1289959ed671b6e38cdc",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "mahler": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac0ac85bcf019e4c1a2cc5feb9",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "liszt": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac8c8ea508a224c56c4306ad27",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "schumann": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097acacfc5d5ab62c4e29a2d76d6d",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "sibelius": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac9460eac11ebf98a03ec88e47",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "prokofiev": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac9ddc0c307ae3d0a7f7027e04",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "shostakovich": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac81dd064f0edb18722c37739d",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "stravinsky": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac916c3f05401e7af861566644",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "mendelssohn": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac69e334ce7480864ed9043c78",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "handel": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac292d0820e9da99e7dbb6583d",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "haydn": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac88680667c6a8a43a35ad3209",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "wagner": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ace53ac7e3837ee23841c36ccf",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "strauss_r": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097acd77af21ff4e5c2efa68bbad7",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "verdi": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097acb7441df77c2306c718eb9628",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "puccini": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac01c4932aadffff39030bff31",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "bizet": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac75476f29b4a3139c048b1f5d",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "saint-saens": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097acc7faaaefb46d9a9a32db22e8",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "faure": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac876b899f38b34d509a469a27",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "franck": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac8d649d12ee932451b9d1828e",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "berlioz": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097aca6f116336e6427c39f8a7e47",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "grieg": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac9593063df70f6bac202c3bd6",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "elgar": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ace1c2dd6bc08875818e80b449",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "smetana": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ace5f72e660f934a3603e28c78",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "bartok": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac18138feb2240ecce258faf9e",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "britten": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac58137c2f74ea59b5ed4e2e49",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "bruckner": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097acd66b09e799cbb18edcd11955",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "scriabin": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097aca9796918d41504e41f8ee779",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "borodin": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac0f84c3ce9ac9aa73746ffad0",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "mussorgsky": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac2e84cbd847fe3d040324a8bd",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "rimsky-korsakov": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac54fbf702ac993de83e786124",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "khachaturian": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097accaa17e1bc152696df57764b6",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "orff": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac55b13838742e08c0ffebd877",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "nielsen": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac0dbf6592bed88fd368bab8fa",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "weber": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097acc21ddecb24a893ba6e9b7e89",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "satie": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac6a88bdb506248eaad61dff04",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "schoenberg": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097acd15f3f56dd1ba1d91a5dd49e",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "part": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac6debca3036fd957c0cc2777d",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "purcell": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac1c1f25f37952c6a90245c8b5",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "wieniawski": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac7672013f895bb5ecf9a4b4da",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "gorecki": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac04ee0ccdfea50fd3e18ccff4",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "ligeti": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac51c59c80f69b7bc7ae72575c",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "holst": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097accda8c34961322fc62a1bf34f",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "tartini": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac6af1f20b918bd62479d9057d",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "rossini": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097acba657587a8df016ad76400e6",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "offenbach": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac5c1ad6adc5aedac76dc4c6c5",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "pachelbel": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac67392c4aeea3c8bff0b9c749",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "johann-strauss-ii": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac0bf1d2088b4d0fc7f6249dc6",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "delibes": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac78ec9638fc1f7b6a572ccc55",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "spohr": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac69636afef8eaf9895b2ef23f",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "szymanowski": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac2f9c1424a67f3cefc0aa8552",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "zarebski": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac9df9aff3dac6995b944fe156",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "karlowicz": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097acf452197db142598309b73658",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "lutoslawski": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac5f0823cd0a1436b541f8c1c3",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "panufnik": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac16070156d42a811e200b503b",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "sarasate": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac207503d28965225fa09379f1",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "dukas": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097acebbf4371f9d842c835ac4ee9",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "hindemith": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac36e2d0e1c72ce94f12cf16fa",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "vaughan-williams": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ace9e460f3257544a5940fdf81",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "gliere": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097acaf4f2468ee711e8ba3a51be3",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "barber": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097aca05a18cf7a623e048b3f3f2a",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "lawes": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac094b64ce9e904848ba475d62",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "paganini": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097acf5d2e5525d2e5850c4b41916",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "glass": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097acac93c6fd48652d1f6b25649d",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "reich": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac2ecbbf6d538ee9ea5b846b23",
+    "kind": "portrait",
+    "credit": "Hans Peters / Anefo, Nationaal Archief",
+    "source": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/ac867f40-d0b4-102d-bcf8-003048976d84",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "beethoven": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac6a07cf72ca80ef3e3d9cdb17",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "dvorak": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac4aa7644fea7807825378cb27",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "kalinnikov": {
+    "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c000097ac1a771a4abee670f0cc1c5671",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "chopin": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097ac0e29fcd2260b2a6aa302597d",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  },
+  "rachmaninoff": {
+    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c000097acb7694305a4fd86304f69b910",
+    "kind": "portrait",
+    "credit": null,
+    "source": null,
+    "license": null,
+    "licenseUrl": null
+  }
+}

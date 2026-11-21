@@ -1,0 +1,612 @@
+[
+  {
+    "name": "Georg Philipp Telemann",
+    "slug": "telemann",
+    "id": "7KErIeTDHgd0gasgvGNqxm"
+  },
+  {
+    "name": "Carl Philipp Emanuel Bach",
+    "slug": "bach-cpe",
+    "id": "1VtKi9QjA5MTHqbWemhrL3"
+  },
+  {
+    "name": "John Cage",
+    "slug": "cage",
+    "id": "1dnxQFKFr6BALaOIfgXDPR"
+  },
+  {
+    "name": "Heitor Villa-Lobos",
+    "slug": "villa-lobos",
+    "id": "4qq5UoZf5zRYBo7AD9D23K"
+  },
+  {
+    "name": "Bohuslav Martinů",
+    "slug": "martinu",
+    "id": "5dWwJhufJBhiqwr9e3TxB6"
+  },
+  {
+    "name": "Max Reger",
+    "slug": "reger",
+    "id": "293i5e4JbWIC3ixZss4nvt"
+  },
+  {
+    "name": "Gaetano Donizetti",
+    "slug": "donizetti",
+    "id": "6xgfy6TyWTKPayUIHZH9jD"
+  },
+  {
+    "name": "Jules Massenet",
+    "slug": "massenet",
+    "id": "0qG7aIoHMbCFQvoCQSotac"
+  },
+  {
+    "name": "Jean-Philippe Rameau",
+    "slug": "rameau",
+    "id": "4aRancOqwVWfLUSu4CCSQl"
+  },
+  {
+    "name": "Claudio Monteverdi",
+    "slug": "monteverdi",
+    "id": "0PB9vSCRKRw7fklIMBQTW4"
+  },
+  {
+    "name": "Alfred Schnittke",
+    "slug": "schnittke",
+    "id": "0IFNjMQFosO4iEhNG63CUG"
+  },
+  {
+    "name": "Stanisław Moniuszko",
+    "slug": "moniuszko",
+    "id": "285Dny5czNbiamkoWSSTMA"
+  },
+  {
+    "name": "Domenico Scarlatti",
+    "slug": "scarlatti-d",
+    "id": "7Agajjxlgxk9Nfdk4ujTqM"
+  },
+  {
+    "name": "Christoph Willibald Gluck",
+    "slug": "gluck",
+    "id": "41WjC1YcGRjC5PxisTOxV5"
+  },
+  {
+    "name": "François Couperin",
+    "slug": "couperin-f",
+    "id": "3jt3eKUo50vncaRKD6RSDO"
+  },
+  {
+    "name": "Charles Gounod",
+    "slug": "gounod",
+    "id": "5GSYuWaXE08hXoEQMoq9v2"
+  },
+  {
+    "name": "Sofia Gubaidulina",
+    "slug": "gubaidulina",
+    "id": "2HT7tT9DcRZgRylQJThucp"
+  },
+  {
+    "name": "Hugo Wolf",
+    "slug": "wolf",
+    "id": "4mNiV3fNj3pzkqJvGXAcft"
+  },
+  {
+    "name": "Ruggero Leoncavallo",
+    "slug": "leoncavallo",
+    "id": "2ugi2qbiG75KKjUge8gu8N"
+  },
+  {
+    "name": "Pietro Mascagni",
+    "slug": "mascagni",
+    "id": "2pKE3upZtJvUsrBIgIOMHl"
+  },
+  {
+    "name": "Alexander Glazunov",
+    "slug": "glazunov",
+    "id": "5mrjZgrvd59VXu9U0sYTYf"
+  },
+  {
+    "name": "Einojuhani Rautavaara",
+    "slug": "rautavaara",
+    "id": "0OEoTdp77Z3CnzroVDVrNM"
+  },
+  {
+    "name": "Krzysztof Penderecki",
+    "slug": "penderecki",
+    "id": "0VPwt2itWrJxLyqGP1FBOE"
+  },
+  {
+    "name": "Leoš Janáček",
+    "slug": "janacek",
+    "id": "1oWTnzAlUpAYgEu2HDbdsR"
+  },
+  {
+    "name": "Vincenzo Bellini",
+    "slug": "bellini",
+    "id": "1yMXsmsf9CgdIC1B0nm4Kr"
+  },
+  {
+    "name": "Zoltán Kodály",
+    "slug": "kodaly",
+    "id": "3l8rdjmnjtewieanNkymxC"
+  },
+  {
+    "name": "Toru Takemitsu",
+    "slug": "takemitsu",
+    "id": "0NjKDC2TLHZinnkdvRM6w8"
+  },
+  {
+    "name": "John Adams",
+    "slug": "adams-j",
+    "id": "1GQaVLR5NyMC0bGWqLxVdv"
+  },
+  {
+    "name": "Charles Ives",
+    "slug": "ives",
+    "id": "0wlzSllbXDVVRZbfUFYbzW"
+  },
+  {
+    "name": "Max Bruch",
+    "slug": "bruch",
+    "id": "155TJbZFw9cVFR0gPqt1UW"
+  },
+  {
+    "name": "Erich Wolfgang Korngold",
+    "slug": "korngold",
+    "id": "4stMTSdbtrvnpsMwbPaXj0"
+  },
+  {
+    "name": "Leonard Bernstein",
+    "slug": "bernstein",
+    "id": "0ZWBaFJog1Vr4Q8yWKIPhc"
+  },
+  {
+    "name": "Aaron Copland",
+    "slug": "copland",
+    "id": "1ahbCZYgwBPRNa20l2rUjn"
+  },
+  {
+    "name": "George Gershwin",
+    "slug": "gershwin",
+    "id": "0KUebrWPJfDxqpdE1vkKxt"
+  },
+  {
+    "name": "Olivier Messiaen",
+    "slug": "messiaen",
+    "id": "19k9n9Av08RhmiPBgcVre6"
+  },
+  {
+    "name": "Ottorino Respighi",
+    "slug": "respighi",
+    "id": "3qFyEkBmgTkVsi824JEVYw"
+  },
+  {
+    "name": "Francis Poulenc",
+    "slug": "poulenc",
+    "id": "0gS497QHXIzUOHq0iDkOyb"
+  },
+  {
+    "name": "Isaac Albéniz",
+    "slug": "albeniz",
+    "id": "11dOH0p40x3La3YvSmlF5o"
+  },
+  {
+    "name": "William Walton",
+    "slug": "walton",
+    "id": "3Lkr2KGamAKW2U86tKg5RA"
+  },
+  {
+    "name": "Enrique Granados",
+    "slug": "granados",
+    "id": "1dUiQpIXIV2RMB7WHkoExT"
+  },
+  {
+    "name": "Manuel de Falla",
+    "slug": "falla",
+    "id": "21Wub3sWghfEKiQqM7hlGh"
+  },
+  {
+    "name": "Henri Dutilleux",
+    "slug": "dutilleux",
+    "id": "2iuyu7pbZmfP9k40KJYjEn"
+  },
+  {
+    "name": "Alban Berg",
+    "slug": "berg",
+    "id": "3N2NmlvQxxurpob5bE20U0"
+  },
+  {
+    "name": "Anton Webern",
+    "slug": "webern",
+    "id": "30EfDqo27nEqgzVuwFx5O1"
+  },
+  {
+    "name": "Arcangelo Corelli",
+    "slug": "corelli",
+    "id": "1vc30cXx1hQa1PX1KL1b1I"
+  },
+  {
+    "name": "Clara Schumann",
+    "slug": "schumann-c",
+    "id": "04eWD7CXrG51Dphy5Gu5h4"
+  },
+  {
+    "name": "Wolfgang Amadeus Mozart",
+    "slug": "mozart",
+    "id": "4dUM8l8qEEc1f1eZUv9gi7"
+  },
+  {
+    "name": "Johann Sebastian Bach",
+    "slug": "bach",
+    "id": "0zG7KjEh7uyQxrwQmrZuKw"
+  },
+  {
+    "name": "Johannes Brahms",
+    "slug": "brahms",
+    "id": "63xu5jaSLAw2068WJPzkn7"
+  },
+  {
+    "name": "Pyotr Ilyich Tchaikovsky",
+    "slug": "tchaikovsky",
+    "id": "7ti0yWRDI0wf1xFtmmz5fR"
+  },
+  {
+    "name": "Franz Schubert",
+    "slug": "schubert",
+    "id": "4Eb98tFQc9bCpYtIlzJQz0"
+  },
+  {
+    "name": "Claude Debussy",
+    "slug": "debussy",
+    "id": "54z5o12ycVjDi3XOx5LUZ8"
+  },
+  {
+    "name": "Maurice Ravel",
+    "slug": "ravel",
+    "id": "1CnBUkbjbhAGnYmh3RcZjw"
+  },
+  {
+    "name": "Antonio Vivaldi",
+    "slug": "vivaldi",
+    "id": "1PTOuhymVZSJajKw3H8Ejj"
+  },
+  {
+    "name": "Gustav Mahler",
+    "slug": "mahler",
+    "id": "7t5WidFSGUxqu1TFi8cXjf"
+  },
+  {
+    "name": "Franz Liszt",
+    "slug": "liszt",
+    "id": "2ZEF8MJwiZ8IZ4rEL8IekE"
+  },
+  {
+    "name": "Robert Schumann",
+    "slug": "schumann",
+    "id": "0shX5aaPuyFi4dFv2Fw0jT"
+  },
+  {
+    "name": "Jean Sibelius",
+    "slug": "sibelius",
+    "id": "7MerI5OTDAsx0SmhVY3Zj1"
+  },
+  {
+    "name": "Sergei Prokofiev",
+    "slug": "prokofiev",
+    "id": "61DFpgRaVNVSs26JuYKgQH"
+  },
+  {
+    "name": "Dmitri Shostakovich",
+    "slug": "shostakovich",
+    "id": "3CDSGi5XEOI7FqxnNpsLS0"
+  },
+  {
+    "name": "Igor Stravinsky",
+    "slug": "stravinsky",
+    "id": "1jgIp1Gck2PAHPVQFFwfWR"
+  },
+  {
+    "name": "Felix Mendelssohn",
+    "slug": "mendelssohn",
+    "id": "2UtauGn3DLViIhveHrjgAS"
+  },
+  {
+    "name": "George Frideric Handel",
+    "slug": "handel",
+    "id": "6YtsJeGO9glGeOnYZ45mrH"
+  },
+  {
+    "name": "Joseph Haydn",
+    "slug": "haydn",
+    "id": "0l2wgnWKvRi3Jxz5Ui2j0y"
+  },
+  {
+    "name": "Richard Wagner",
+    "slug": "wagner",
+    "id": "2RiAlBX9oeTVwA8nfqz27X"
+  },
+  {
+    "name": "Richard Strauss",
+    "slug": "strauss_r",
+    "id": "00pwHoboJybaR0nE7ZUoQF"
+  },
+  {
+    "name": "Giuseppe Verdi",
+    "slug": "verdi",
+    "id": "2izPou5Z4GIUqmsxxR0luK"
+  },
+  {
+    "name": "Giacomo Puccini",
+    "slug": "puccini",
+    "id": "2kIcpUu3ZXnORovlLvdBdp"
+  },
+  {
+    "name": "Georges Bizet",
+    "slug": "bizet",
+    "id": "1fKiEai32ZbB4mJ9kP6sLk"
+  },
+  {
+    "name": "Camille Saint-Saëns",
+    "slug": "saint-saens",
+    "id": "5i9EaOkESLGT2PUhpT9OaM"
+  },
+  {
+    "name": "Gabriel Fauré",
+    "slug": "faure",
+    "id": "4iEua5qnP2Widcg9aAitVp"
+  },
+  {
+    "name": "César Franck",
+    "slug": "franck",
+    "id": "7idbgo4E6RCn3FgWFVdcdH"
+  },
+  {
+    "name": "Hector Berlioz",
+    "slug": "berlioz",
+    "id": "0zINl7azwimSRzzeClAFwm"
+  },
+  {
+    "name": "Edvard Grieg",
+    "slug": "grieg",
+    "id": "4lXVKEog2MH6sGHzqnBN2i"
+  },
+  {
+    "name": "Edward Elgar",
+    "slug": "elgar",
+    "id": "2YSfJpiJvJRxolOoarnzFj"
+  },
+  {
+    "name": "Bedřich Smetana",
+    "slug": "smetana",
+    "id": "4pLaK2w6rnlaHGME968UDW"
+  },
+  {
+    "name": "Béla Bartók",
+    "slug": "bartok",
+    "id": "5DKDnM4VTURHWVnDFrF7WU"
+  },
+  {
+    "name": "Benjamin Britten",
+    "slug": "britten",
+    "id": "2ipzYpBEMCexE3yuyJkS7T"
+  },
+  {
+    "name": "Anton Bruckner",
+    "slug": "bruckner",
+    "id": "3GsZSPh0nUt8syVs0naauN"
+  },
+  {
+    "name": "Alexander Scriabin",
+    "slug": "scriabin",
+    "id": "1IaVphbXaIlpCturxGy6Vw"
+  },
+  {
+    "name": "Alexander Borodin",
+    "slug": "borodin",
+    "id": "6bHPRkXsLi48SsC1MLp40Z"
+  },
+  {
+    "name": "Modest Mussorgsky",
+    "slug": "mussorgsky",
+    "id": "21yh3n44DPz9s4Z41cWawN"
+  },
+  {
+    "name": "Nikolai Rimsky-Korsakov",
+    "slug": "rimsky-korsakov",
+    "id": "0oek6LNAtfD5HC4P0YMXoJ"
+  },
+  {
+    "name": "Aram Khachaturian",
+    "slug": "khachaturian",
+    "id": "4NOw5jN1xtbF8bpFKFUzDV"
+  },
+  {
+    "name": "Carl Orff",
+    "slug": "orff",
+    "id": "0Yf1aeoEZjCsenOH93K2Ge"
+  },
+  {
+    "name": "Carl Nielsen",
+    "slug": "nielsen",
+    "id": "6A2C2a3Jhn5X65DcqHJ7pK"
+  },
+  {
+    "name": "Carl Maria von Weber",
+    "slug": "weber",
+    "id": "731kroWuCFiZ80xJEzJ28G"
+  },
+  {
+    "name": "Erik Satie",
+    "slug": "satie",
+    "id": "1pfzmBAAtLGrFecjTz3enL"
+  },
+  {
+    "name": "Arnold Schönberg",
+    "slug": "schoenberg",
+    "id": "40yPDEyMzPOaCw8JLHxiCb"
+  },
+  {
+    "name": "Arvo Pärt",
+    "slug": "part",
+    "id": "34ufiSmGOb517pqGf4UY7k"
+  },
+  {
+    "name": "Henry Purcell",
+    "slug": "purcell",
+    "id": "138o0UQNcyNr2sCCwUCQB3"
+  },
+  {
+    "name": "Henryk Wieniawski",
+    "slug": "wieniawski",
+    "id": "4HVcl7gTMt8vL4EpDFZzlQ"
+  },
+  {
+    "name": "Henryk Górecki",
+    "slug": "gorecki",
+    "id": "0mwwa4uwBQRBEqDWlpWAms"
+  },
+  {
+    "name": "György Ligeti",
+    "slug": "ligeti",
+    "id": "2cEezVTEATZJ1foKsWiT0s"
+  },
+  {
+    "name": "Gustav Holst",
+    "slug": "holst",
+    "id": "5AvB9CBy6ISbi7ZBa7lXQI"
+  },
+  {
+    "name": "Giuseppe Tartini",
+    "slug": "tartini",
+    "id": "7sakGkLz8AxvFNMrcWxVkw"
+  },
+  {
+    "name": "Gioachino Rossini",
+    "slug": "rossini",
+    "id": "3FxyB7zsOEdEnzu0j44GhL"
+  },
+  {
+    "name": "Jacques Offenbach",
+    "slug": "offenbach",
+    "id": "3yqUyC2YxSQCQufdl5i99W"
+  },
+  {
+    "name": "Johann Pachelbel",
+    "slug": "pachelbel",
+    "id": "6b57FKYpoYfHwxe4YDHVLG"
+  },
+  {
+    "name": "Johann Strauss II",
+    "slug": "johann-strauss-ii",
+    "id": "5xZwa6Dcqqadd71vCwHWVS"
+  },
+  {
+    "name": "Léo Delibes",
+    "slug": "delibes",
+    "id": "73vLcBmLgOfL1wIgUpaPlt"
+  },
+  {
+    "name": "Louis Spohr",
+    "slug": "spohr",
+    "id": "79dI6bDQQtfx4YO9bYp6pI"
+  },
+  {
+    "name": "Karol Szymanowski",
+    "slug": "szymanowski",
+    "id": "4XrfXOuQU3iTEUHHL6dOUB"
+  },
+  {
+    "name": "Juliusz Zarębski",
+    "slug": "zarebski",
+    "id": "0HKyvcn0HJ7qsA1wvZxPDy"
+  },
+  {
+    "name": "Mieczysław Karłowicz",
+    "slug": "karlowicz",
+    "id": "6QEK5yCpQfLxL31FzsxH4p"
+  },
+  {
+    "name": "Witold Lutosławski",
+    "slug": "lutoslawski",
+    "id": "0u3zDttzV4xqf7H6YdgeZj"
+  },
+  {
+    "name": "Andrzej Panufnik",
+    "slug": "panufnik",
+    "id": "3lA0gda2KzdEtGTUZcL4t9"
+  },
+  {
+    "name": "Pablo de Sarasate",
+    "slug": "sarasate",
+    "id": "7kEmfbe6DZ2wg0bosxE3hp"
+  },
+  {
+    "name": "Paul Dukas",
+    "slug": "dukas",
+    "id": "0HlBhPmBKYnEhKGcvus2L4"
+  },
+  {
+    "name": "Paul Hindemith",
+    "slug": "hindemith",
+    "id": "6nUTcswgNroL2J9JNHN4PO"
+  },
+  {
+    "name": "Ralph Vaughan Williams",
+    "slug": "vaughan-williams",
+    "id": "7r7phOqa8LP6Ker5rFy0SI"
+  },
+  {
+    "name": "Reinhold Glière",
+    "slug": "gliere",
+    "id": "7zVfoHuMJvlvkUm8V6Ht7E"
+  },
+  {
+    "name": "Samuel Barber",
+    "slug": "barber",
+    "id": "4PqQ0QYisVTfGmhZElFadC"
+  },
+  {
+    "name": "William Lawes",
+    "slug": "lawes",
+    "id": "1KMrTt22gHRRQTI1tG1LOW"
+  },
+  {
+    "name": "Niccolò Paganini",
+    "slug": "paganini",
+    "id": "0thbG5VUcSCjImDSUXaWcW"
+  },
+  {
+    "name": "Philip Glass",
+    "slug": "glass",
+    "id": "20UCGFDzczRQMpdpZVO628"
+  },
+  {
+    "name": "Steve Reich",
+    "slug": "reich",
+    "id": "5rEt3WnSxrU5TQMznjXNu8"
+  },
+  {
+    "name": "Ludwig van Beethoven",
+    "slug": "beethoven",
+    "id": "3T9ApmcEi5CPZ6av2wx9zx"
+  },
+  {
+    "name": "Antonín Dvořák",
+    "slug": "dvorak",
+    "id": "7dMAp6cTurA7LHSM6tkNWd"
+  },
+  {
+    "name": "Vasily Kalinnikov",
+    "slug": "kalinnikov",
+    "id": "5MA01nFj0WvqHQclOsbrBS"
+  },
+  {
+    "name": "Fryderyk Chopin",
+    "slug": "chopin",
+    "id": "7BTJ25o87SdKvCyxtNfuzG"
+  },
+  {
+    "name": "Sergei Rachmaninoff",
+    "slug": "rachmaninoff",
+    "id": "3uxN2UAHcHF8YNMUwvZohZ"
+  }
+]

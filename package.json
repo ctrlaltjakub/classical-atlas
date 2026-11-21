@@ -1,0 +1,7 @@
+{
+  "name": "classical-atlas",
+  "private": true,
+  "type": "module",
+  "license": "0BSD",
+  "scripts": { "build": "node build.mjs", "test": "node --test" }
+}
