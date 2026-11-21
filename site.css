@@ -18,3 +18,4 @@
 .era small{display:block;color:var(--dim);font-size:.68rem;line-height:1.35}.date-note{font-size:.77rem;line-height:1.4;color:var(--dim);margin-top:.25rem}.date-note summary{cursor:pointer}.credits h1{margin-top:1.4rem}
 @media(min-width:761px){.intro{grid-template-areas:"copy rules" "support rules";grid-template-rows:min-content 1fr;row-gap:0}.rules{grid-area:rules}#support{grid-area:support}}
 @media(max-width:760px){#support{margin-top:0}}
+.fallback.widget-ready:not(:focus){position:absolute;width:1px;height:1px;padding:0;min-height:0;overflow:hidden;clip-path:inset(50%)}.fallback.widget-ready:focus{position:absolute;z-index:5;inset:0 auto auto 0}.cohort-periods{color:var(--dim);margin:-.83rem 0 1.15rem;font-size:.81rem}

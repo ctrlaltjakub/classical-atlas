@@ -27,7 +27,7 @@
       window.kofiWidgetOverlay.draw('jakubfleitesjonczyk',{'type':'floating-chat','floating-chat.donateButton.text':'Support me','floating-chat.donateButton.background-color':'#323842','floating-chat.donateButton.text-color':'#fff'},'kofi-widget');
       const frames=$$('#kofi-widget iframe');
       for(const f of frames)if(!f.title)f.title=f.className.includes('container')?'Support me on Ko-fi':'Ko-fi support panel';
-      if($('#kofi-widget iframe.floatingchat-container'))$('.fallback').hidden=true;
+      if($('#kofi-widget iframe.floatingchat-container'))$('.fallback').classList.add('widget-ready');
     }catch{ /* The direct support link remains usable when the widget is unavailable. */ }
   };
   document.head.append(external);

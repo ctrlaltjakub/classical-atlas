@@ -41,7 +41,12 @@ const eraChart=periods.map(([tag,start,end])=>{
  return `<a class="era" href="#y${group}" data-era="${esc(tag)}" title="Approximately ${start}–${end}"><span>${esc(tag)}</span><small>${start}–${end===last?'now':end}</small><span aria-hidden="true" class="bar" style="--x:${100*(start-1400)/span}%;--w:${100*(end-start)/span}%"><i></i></span></a>`;
 }).join('');
 const opt=(group,values)=>`<optgroup label="${group}">${values.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('')}</optgroup>`;
-const substitutions={COUNT:total,PERIODS:eraChart,JUMPS:bands.map(y=>`<a href="#y${y}">${bandName(y)}</a>`).join(''),OPTIONS:opt('Periods',allPeriods)+opt('Styles',allStyles.filter(x=>!allPeriods.includes(x))),CARDS:bands.map(y=>`<section class="block" id="y${y}"><div class="blockhead"><h3>${bandName(y)}</h3></div><div class="cards">${rows.filter(r=>band(r)===y).map(r=>card(r,rows.indexOf(r))).join('')}</div></section>`).join('')};
+const cohort=y=>{
+ const group=rows.filter(r=>band(r)===y), tags=new Set(group.flatMap(r=>[...r.periods,...r.styles]));
+ const labels=periods.map(([tag])=>tag).filter(tag=>tags.has(tag));
+ return `<section class="block" id="y${y}"><div class="blockhead"><h3>${bandName(y)}</h3></div><p class="cohort-periods"><span class="sr">Periods represented: </span>${labels.map(esc).join(' · ')}</p><div class="cards">${group.map(r=>card(r,rows.indexOf(r))).join('')}</div></section>`;
+};
+const substitutions={COUNT:total,PERIODS:eraChart,JUMPS:bands.map(y=>`<a href="#y${y}">${bandName(y)}</a>`).join(''),OPTIONS:opt('Periods',allPeriods)+opt('Styles',allStyles.filter(x=>!allPeriods.includes(x))),CARDS:bands.map(cohort).join('')};
 const out=file('dist');mkdirSync(out,{recursive:true});
 write(join(out,'index.html'),read(file('page.html'),'utf8').replace(/<!-- (\w+) -->/g,(_,k)=>{assert(k in substitutions);return substitutions[k]}));
 for(const f of ['mark.svg','site.css','index.js'])copyFileSync(file(f),join(out,f));
